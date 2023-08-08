@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Lab6"
+       android:textStyle="bold"
+       android:textSize="30dp"
+       android:layout_marginBottom="200dp"
+       />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:text="Bài 1"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Gửi thông báo"
+       android:id="@+id/btn_"
+       android:backgroundTint="#009688"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Bài 2"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Chạy service"
+       android:id="@+id/btn_1"
+       android:backgroundTint="#009688"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Dừng service"
+       android:id="@+id/btn_2"
+       android:backgroundTint="#009688"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Bài 3"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Mở web service"
+       android:id="@+id/btn_3"
+       android:backgroundTint="#009688"/>
+
+</LinearLayout>
